@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chatPeople {
+    height: 100vh;
+    background-color: rgb(17, 27, 33);
+
+}
+
+.chatShow {
+    height: 100vh;
+    background-color: rgb(34, 46, 53);
+}
+
+.welcomeScreenShowChat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcomeImg {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    margin-top: 100px;
+}
+
+.mainHeader {
+    display: flex;
+    height: 60px;
+    background-color: rgb(32, 44, 51);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#profileName {
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    padding: 7px 16px;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#searchInput {
+    width: 70%;
+    padding: 3px;
+    background-color: rgb(17, 27, 33);
+    border: 2px solid rgb(17, 27, 33);
+    text-indent: 5px;
+    color: white;
+    border-radius: 4px;
+}
+
+#searchInput:focus {
+    outline: none;
+}
+
+.threedots {
+    color: white;
+}
+
+.threedots:after {
+    content: '\2807';
+    font-size: 25px;
+}
+
+.threedots:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    cursor: pointer
+}
+
+.peopleIdDiv {
+    display: flex;
+    padding: 12px 10px;
+    margin-left: 2%;
+}
+
+.peopleIdDiv:hover {
+    background-color: rgb(34, 46, 53);
+    width: 95%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.peopleStyle {
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+
+.peopleNameTitle {
+    font-size: 16px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.mainDivPeopleContact {
+    height: 88vh;
+    overflow-y: scroll;
+}
+
+.sendBottomMsg {
+    background-color: rgb(32, 44, 51);
+    height: 60px;
+    right: 0;
+    bottom: 0px;
+    position: fixed;
+    left: 0;
+    width: 75%;
+    margin-left: 25%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#typeMsgUserStyle{
+    width: 80%;
+    height: 37px;
+    text-indent: 10px;
+    border-radius: 5px;
+    background-color: rgb(17,27,33);
+    border: 2px solid rgb(17,27,33);
+    color: white;
+}
+#typeMsgUserStyle:focus{
+    outline: none;
+}
+
+.modalAddPeopleBtn{
+    padding: 3px 16px;
+    background-color: rgb(17,27,33);
+    border: 2px solid rgb(17,27,33);
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 3px grey;
+}
+.modalAddInput{
+    padding: 3px;
+    width: 80%;
+    color: rgb(17,27,33);
+    border: 1px solid rgb(17,27,33);
+    border-radius: 2px;
+    text-indent: 10px;
+}
+.modalAddInput:focus{
+    outline: none;
+}
